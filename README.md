@@ -12,4 +12,7 @@ port deps apache2 +openldap
 port uninstall <portname>
 port contents xorg-renderproto
 port installed
+
+# from which package come
+port provides /opt/local/etc/irssi.conf
 ```
